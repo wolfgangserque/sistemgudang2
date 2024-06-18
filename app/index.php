@@ -4,6 +4,11 @@
 <html lang="en">
 
 
+<?php session_start(); 
+if(!$_SESSION['nama']){
+  header('Location: ../index.php?session=expired');
+} ?>
+
 <?php include('../config/config.php');?>
 <?php include('header.php');?>
 
@@ -19,24 +24,99 @@
 
     <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
-
-        
             <!-- Main Content -->
             <div id="content">
 
                 <!-- Topbar -->
-              <?php include('navbar.php'); ?>
-                <!-- End of Topbar -->
+            <?php include('navbar.php'); ?>
+            <!-- End of Topbar -->
 
-                <!-- Begin Page Content -->
-                <?php include('dashboard.php');?>
-                <!-- /.container-fluid -->
+
+            <!-- /.container-fluid -->
+
+            <?php 
+
+            if (isset($_GET['page'])){
+                if ($_GET['page']=='dashboard'){
+                include('dashboard.php');
+                }
+            
+                else if ($_GET['page']=='data-stok-aktif'){
+                include('data-stok-aktif.php');
+                }
+            
+                else if ($_GET['page']=='data-stok-gudang'){
+                include('data-stok-gudang.php');
+                }
+            
+            
+                
+                else if ($_GET['page']=='edit-data'){
+                include('edit/edit-data.php');
+                }
+            
+            
+                else if ($_GET['page']=='edit-data-b'){
+                    include('edit/edit-data-b.php');
+                    }
+            
+
+                else if ($_GET['page']=='edit-data-c'){
+                include('edit/edit-data-c.php');
+                }
+            
+                // admin 
+            
+                else if ($_GET['page']=='data_gudang_a_admin'){
+                include('admin/data_gudang_a.php');
+                }
+            
+                else if ($_GET['page']=='data_gudang_b_admin'){
+                    include('admin/data_gudang_b.php');
+                    }
+            
+            
+                    else if ($_GET['page']=='data_gudang_c_admin'){
+                    include('admin/data_gudang_c.php');
+                    }
+            
+            
+            
+                else{
+                include('error404.php');
+                }
+            }
+            else{
+                include('dashboard.php');
+            }
+            ?>
+
+
+
+
+<!-- 
+            // if (isset($_GET['page'])){
+            //     if ($_GET['page']=='dashboard'){
+            //         include('dashboard.php');
+            //         }
+
+            //     else if ($_GET['page']=='data-stok-aktif'){
+            //         include('data-stok-aktif.php');
+            //         }
+
+            //     else if ($_GET['page']=='data-stok-gudang'){
+            //         include('data-stok-gudang.php');
+            //         }
+            // }
+            //     else{
+            //     include('error404.php');
+            //     }
+                
+
+            // ?> -->
 
             </div>
             <!-- End of Main Content -->
-
-
-
 
             <!-- Footer -->
             <footer class="sticky-footer bg-white">

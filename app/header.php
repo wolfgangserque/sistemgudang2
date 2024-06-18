@@ -19,5 +19,8 @@
     
     <!-- Sweetalert -->
     <link href="vendor/sweetalert/sweetalert2.min.css" rel="stylesheet">
+    
+    <link href="vendor/datepick/bootstrap-datepicker.css" rel="stylesheet">
+
 
 </head>

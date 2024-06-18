@@ -19,4 +19,12 @@
     
     <!-- Page level custom scripts -->
     <script src="vendor/demo/sweetalert2.min.js"></script>
+    
+    <!-- Datepicker -->
+    <script src="vendor/datepick/bootstrap-datepicker.min.js"></script>
 
+    <script>
+    $('#sandbox-container input').datepicker({
+    format: "dd/mm/yyyy"
+    });
+    </script>
