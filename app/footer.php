@@ -18,7 +18,7 @@
 
     
     <!-- Page level custom scripts -->
-    <script src="vendor/demo/sweetalert2.min.js"></script>
+    <script src="vendor/sweetalert/sweetalert2.min.js"></script>
     
     <!-- Datepicker -->
     <script src="vendor/datepick/bootstrap-datepicker.min.js"></script>
@@ -28,3 +28,5 @@
     format: "dd/mm/yyyy"
     });
     </script>
+
+    

@@ -52,18 +52,13 @@ if(!$_SESSION['nama']){
             
                 
                 else if ($_GET['page']=='edit-data'){
-                include('edit/edit-data.php');
+                include('edit/edit1.php');
                 }
             
             
-                else if ($_GET['page']=='edit-data-b'){
-                    include('edit/edit-data-b.php');
+                else if ($_GET['page']=='edit-data-2'){
+                    include('edit/edit2.php');
                     }
-            
-
-                else if ($_GET['page']=='edit-data-c'){
-                include('edit/edit-data-c.php');
-                }
             
                 // admin 
             

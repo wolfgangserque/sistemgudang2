@@ -20,6 +20,13 @@
         <span>Data Stok Gudang</span></a>
 </li>
 
+<!-- Nav Item - Tables -->
+<li class="nav-item ">
+<a class="nav-link" href="logout.php">
+        <i class="fas fa-fw fa-power-off"></i>
+        <span>Keluar</span></a>
+</li>
+
 <!-- Divider -->
 <hr class="sidebar-divider d-none d-md-block">
 
