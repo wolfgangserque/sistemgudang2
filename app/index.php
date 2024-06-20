@@ -60,20 +60,16 @@ if(!$_SESSION['nama']){
                     include('edit/edit2.php');
                     }
             
-                // admin 
+                // admin    
             
-                else if ($_GET['page']=='data_gudang_a_admin'){
-                include('admin/data_gudang_a.php');
+                else if ($_GET['page']=='data-stok-aktif-adm'){
+                include('admin/data-stok-aktif-adm.php');
                 }
             
-                else if ($_GET['page']=='data_gudang_b_admin'){
-                    include('admin/data_gudang_b.php');
+                else if ($_GET['page']=='data-stok-gudang-adm'){
+                    include('admin/data-stok-gudang-adm.php');
                     }
             
-            
-                    else if ($_GET['page']=='data_gudang_c_admin'){
-                    include('admin/data_gudang_c.php');
-                    }
             
             
             

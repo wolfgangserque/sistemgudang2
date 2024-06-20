@@ -1,21 +1,21 @@
 
 <!-- Nav Item - Dashboard -->
-<li class="nav-item active">
-    <a class="nav-link" href="index.html">
+<li class="nav-item">
+<a class="nav-link" href="index.php?page=dashboard">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span></a>
 </li>
 
 <!-- Nav Item - Charts -->
 <li class="nav-item">
-    <a class="nav-link" href="charts.html">
+    <a class="nav-link" href="index.php?page=data-stok-aktif-adm">
         <i class="fas fa-fw fa-chart-area"></i>
         <span>Data Stok Aktif</span></a>
 </li>
 
 <!-- Nav Item - Tables -->
 <li class="nav-item">
-    <a class="nav-link" href="tables.html">
+    <a class="nav-link" href="index.php?page=data-stok-gudang-adm">
         <i class="fas fa-fw fa-table"></i>
         <span>Data Stok Gudang</span></a>
 </li>
