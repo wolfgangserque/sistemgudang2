@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Login</title>
+    <title>Gudangku </title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -19,6 +19,9 @@
 
     <!-- Custom styles for this template-->
     <link href="app/css/sb-admin-2.min.css" rel="stylesheet">
+
+    <link href="app/vendor/sweetalert/sweetalert2.min.css" rel="stylesheet">
+
 
 </head>
 
@@ -82,6 +85,8 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
+    <script src="app/vendor/sweetalert/sweetalert2.min.js"></script>
+
 
 </body>
 
