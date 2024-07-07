@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dashboard Gudang</title>
+    <title>Dashboard Gudangku</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -17,6 +17,13 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     
+    <link rel="apple-touch-icon" sizes="180x180" href="vendor/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="vendor/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="vendor/favicon/favicon-16x16.png">
+    <link rel="manifest" href="vendor/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- Sweetalert -->
     <link href="vendor/sweetalert/sweetalert2.min.css" rel="stylesheet">
     
