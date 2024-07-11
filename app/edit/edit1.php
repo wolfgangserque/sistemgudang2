@@ -13,7 +13,6 @@ $view = mysqli_fetch_array($query);
                 <div class="card-body">
                   <form method='post' action='update/update.php' enctype="multipart/form-data">
 
-
                   <div class="row">
                           <div class="col-sm-4">
                             <div class="form-group">
