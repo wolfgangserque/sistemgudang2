@@ -8,14 +8,14 @@
 
 <!-- Nav Item - Charts -->
 <li class="nav-item">
-    <a class="nav-link" href="index.php?page=data-stok-aktif-adm">
+    <a class="nav-link" href="index.php?page=data-stok-aktif">
         <i class="fas fa-fw fa-chart-area"></i>
         <span>Data Stok Aktif</span></a>
 </li>
 
 <!-- Nav Item - Tables -->
 <li class="nav-item">
-    <a class="nav-link" href="index.php?page=data-stok-gudang-adm">
+    <a class="nav-link" href="index.php?page=data-stok-gudang">
         <i class="fas fa-fw fa-table"></i>
         <span>Data Stok Gudang</span></a>
 </li>
