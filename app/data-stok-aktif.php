@@ -22,11 +22,12 @@
                         <th>No</th>
                         <th>Nama Barang</th>
                         <th>Supplier</th>
-                        <th>UOM</th>
+                        <th>Satuan</th>
                         <th>Tanggal Masuk</th>
                         <th>Tanggal Keluar</th>
                         <th>Stok Fisik</th>
                         <th>Aksi</th>
+                        
                     </tr>
                 </thead>
                 
@@ -85,7 +86,7 @@
                 </div>
 
                 <div class="col">
-                <label>UOM</label>
+                <label>Satuan</label>
                 <input type="text" class="form-control" placeholder="..." name="uom" required>
                 </div>
 
@@ -94,15 +95,18 @@
                 <input type="date" class="form-control" name="masuk" required>
                 </div>
 
-                <div class="col">
+                <!-- <div class="col">
                 <label>Date Out</label>
                 <input type="date" class="form-control" name="keluar" required>
-                </div>
+                </div> -->
 
                 <div class="col">
                 <label>Stok Fisik</label>
                 <input type="text" class="form-control" placeholder=".." name="stok_fisik" required>
                 </div>
+
+                
+               
 
           </div>
           </div>

@@ -92,10 +92,10 @@
                 <input type="date" class="form-control" name="masuk" required>
                 </div>
 
-                <div class="col">
+                <!-- <div class="col">
                 <label>Date Out</label>
                 <input type="date" class="form-control" name="keluar" required>
-                </div>
+                </div> -->
 
              
 

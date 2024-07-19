@@ -3,11 +3,17 @@ include('../../config/config.php');
 $id= $_POST['id'];
 $nama_barang= $_POST['nama_barang'];
 $nama_merk= $_POST['nama_merk'];
-$stokfisik= $_POST['stok_fisik'];
+$stokfisik_awal= $_POST['stokfisik_awal'];
 $keluar= $_POST['keluar'];
-$masuk= $_POST['masuk'];
+$barang_keluar = $_POST['barang_keluar'];
 
-$query=mysqli_query($koneksi,"UPDATE tb_stock_op SET nama_barang='$nama_barang', nama_merk='$nama_merk', stok_fisik='$stokfisik', masuk='$masuk', keluar='$keluar' WHERE id='$id'");
+$stokfisik_awal = (int) $stokfisik_awal;
+$barang_keluar = (int) $barang_keluar;
+
+$sisa_stok = $stokfisik_awal - $barang_keluar;
+
+$query=mysqli_query($koneksi,"UPDATE tb_stock_op SET nama_barang='$nama_barang', nama_merk='$nama_merk', stok_fisik='$sisa_stok', masuk='$masuk', keluar='$keluar' WHERE id='$id'");
 
 header('location: ../index.php?page=data-stok-gudang');
 ?>
+
